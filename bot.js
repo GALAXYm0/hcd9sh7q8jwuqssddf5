@@ -1,3 +1,4 @@
+
 const Discord = require('discord.js');
 
 const Util = require('discord.js');
@@ -20,8 +21,8 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-var prefix = "1=";
-var adminprefix = '1='
+var prefix = "2=";
+var adminprefix = '2='
 /////////////////////////
 ////////////////////////
 
@@ -314,8 +315,8 @@ function play(guild, song) {
 }
 
 
-var prefix = "1=";
-var adminprefix = '='
+var prefix = "2=";
+var adminprefix = '2='
 const developers = ["307938325799501824"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
